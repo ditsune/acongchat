@@ -430,7 +430,7 @@ SUDAH PAYMENT SS + SEBUT NICKNAME DAN HERO APA`
     {
         id: 3,
         name: "Link Grup",
-        category: "order",
+        category: "other",
         content: `https://chat.whatsapp.com/EAKgivEWKKzGU1kULniiuj`
     },
     {

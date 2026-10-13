@@ -412,7 +412,7 @@ SUDAH PAYMENT SS + SEBUT NICKNAME DAN HERO APA`
     },
     {
         id: 2,
-        name: `GB MMR`
+        name: "GB MMR",
         category: "order",
         content: `*GB MMR*
 `•EPIC-GLORY 10K`

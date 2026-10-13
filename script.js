@@ -412,9 +412,19 @@ SUDAH PAYMENT SS + SEBUT NICKNAME DAN HERO APA`
     },
     {
         id: 2,
-        name: "Kirim Username",
+        name: "GB MMR",
         category: "order",
-        content: `Dana masuk, kirim username`
+        content: `GB MMR
+•EPIC-GLORY 10K
+•IMO 12K
+•MAX 4 GAME
+•MUSUH BEDA PERMATCH
+ORDER PAKETAN 4 GAME ONLY
+
+PAKETAN GAME 30K
+
+—————————————
+SUDAH PAYMENT KIRIM SS + SEBUT NICK DAN HERO`
     },
     {
         id: 3,

@@ -429,20 +429,6 @@ SUDAH PAYMENT SS + SEBUT NICKNAME DAN HERO APA`
     },
     {
         id: 3,
-        name: "Link Grup",
-        category: "other",
-        content: `https://chat.whatsapp.com/BAWszkDAYO33rZNpmkDDJy?s=cl&p=a&iam=2`
-    },
-    {
-        id: 4,
-        name: "QRIS",
-        category: "order",
-        type: "image",
-        image: "foto/qr.png",
-        content: "Klik untuk copy gambar QRIS"
-    },
-    {
-        id: 5,
         name: "GB NO LIMIT",
         category: "order",
         content: `*VIP GB POINT NO LIMIT 🏆*
@@ -461,7 +447,20 @@ SUDAH PAYMENT SS + SEBUT NICKNAME DAN HERO APA`
 
 *SUDAH PAYMENT SEBUT NICKNAME ML*`
     },
-    // Tambahkan template lain sesuai kebutuhan
+    {
+        id: 4,
+        name: "QRIS",
+        category: "order",
+        type: "image",
+        image: "foto/qr.png",
+        content: "Klik untuk copy gambar QRIS"
+    },
+    {
+        id: 5,
+        name: "Link Grup",
+        category: "other",
+        content: `https://chat.whatsapp.com/BAWszkDAYO33rZNpmkDDJy?s=cl&p=a&iam=2`
+    },
 ];
 
 // ==================== TEMPLATE STATE ====================
@@ -679,7 +678,7 @@ function applyTemplateFilter(forceQ) {
 function handleQuickAction(templateKey) {
     // Cari template berdasarkan name (case-insensitive) atau ID
     const idMap = {
-        'order': 1, 'kirimuser': 2, 'linkgc': 3, 'qris': 4, 'gbnolimit': 5
+        'vsbot': 1, 'gbmmr': 2, 'gbnolimit': 3, 'qris': 4, 'linkgc': 5
     };
 
     const templateId = idMap[templateKey];
